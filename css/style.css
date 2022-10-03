@@ -60,13 +60,9 @@ header a{
 header p{
     color:#fff;
     align-self: center;
-    margin: 3% 25%;
-
+    margin: 3% 25%; 
 }
 
-#CTA{
-    
-}
 
 /* Impostazioni generali Pulsanti */
 .button{
@@ -82,5 +78,80 @@ header p{
     color:#fff;
     background-color: #000;
     padding: 10px;
+}
+.button.blue{
+    color:#fff;
+    background-color: rgb(46, 121, 200);
+    padding: 10px;
 } 
+
+/* main */
+main{
+    width: 100%;
+    background-color: darkgrey;
+}
+.flexbox{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.item.even{
+    background-color: #fff;
+}
+.item.odd{
+    background-color: darkgray;
+}
+
+/* Fine corpo */
+.conclusion{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.conclusioni h3{
+    margin: 5% auto;
+}
+
+/* footer */
+footer{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgb(26, 29, 32);
+    color:#fff;
+}
+footer h3, h5{
+    color:rgb(118, 6, 254);
+}
+.bottom-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.link-utili{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+/* pie di pagina */
+.fine{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 3% 10%;
+}
+
+.fine a{
+    font-size: 10px;
+}
+
 
